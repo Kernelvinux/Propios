@@ -6,8 +6,8 @@
  y se detiene por 5 segundos. Luego repite la acción indefinidamente.
  */
 
-int IN3 = 5; 
-int IN4 = 4;
+int IN3 = 10; 
+int IN4 = 11;
 
 void setup()
 {
