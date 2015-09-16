@@ -1,0 +1,11 @@
+|detecsec
+RST => pr~3.DATAIN
+CLK => pr~1.DATAIN
+Xin => sg.s1.DATAB
+Xin => sg.s2.DATAA
+Xin => Zout.DATAB
+Xin => Selector0.IN1
+Xin => sg.s3.DATAB
+Zout <= Zout.DB_MAX_OUTPUT_PORT_TYPE
+
+

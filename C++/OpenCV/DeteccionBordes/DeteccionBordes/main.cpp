@@ -6,7 +6,7 @@ using namespace cv;
 using namespace std;
 
 int main(){
-  VideoCapture cap(1);  // Especificamos el dispositivo a utilizar (cámara)
+  VideoCapture cap(0);  // Especificamos el dispositivo a utilizar (cámara)
 
   if(!cap.isOpened())  // check if we succeeded
       return -1;
