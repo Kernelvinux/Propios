@@ -1,7 +1,7 @@
         ; Primer Programa Ensamblador
         ; Curso: Sistema Basados en Microprocesador
         list	p=16f877A       ;Indica el tipo de procesador a programar
-        INCLUDE	"P16F877A.INC"  ;Incluye en el programa el fichero de definiciones del uC seleccionado
+        INCLUDE	"p16f877a.inc"  ;Incluye en el programa el fichero de definiciones del uC seleccionado
         __CONFIG _CP_OFF& _DEBUG_OFF& _WRT_OFF& _CPD_OFF& _LVP_OFF& _BODEN_OFF& _PWRTE_ON& _WDT_OFF& _XT_OSC    ; selecciona el estado de los bits de configuración
 TIEMPO1 EQU     0X20
 TIEMPO2 EQU     0X21
@@ -57,5 +57,4 @@ DELAY2  NOP
         RETURN
         ;*********************FIN DELAY***********************
         END
-
 

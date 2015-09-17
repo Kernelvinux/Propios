@@ -1,6 +1,6 @@
         ;Autor: Mauricio Galvez Legua
         list	p=16f877A   ;Indica el tipo de procesador
-        INCLUDE	"P16F877A.INC"
+        INCLUDE	"p16f877a.inc"
         __CONFIG _CP_OFF& _DEBUG_OFF& _WRT_OFF& _CPD_OFF& _LVP_OFF& _BODEN_OFF& _PWRTE_ON& _WDT_OFF& _XT_OSC
         ;Definición de Constantes
         CONSTANT    NUM=.16 ; Valor de los números a contar
@@ -68,5 +68,4 @@ DELAY2  NOP
         GOTO    DELAY1
         RETURN
         END
-
 

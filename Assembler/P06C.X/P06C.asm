@@ -1,6 +1,6 @@
         ;Autor Mauricio Galvez Legua
         list	p=16f877A       ;Indica el tipo de procesador
-        INCLUDE	"P16F877A.INC"
+        INCLUDE	"p16f877a.inc"
         __CONFIG _CP_OFF& _DEBUG_OFF& _WRT_OFF& _CPD_OFF& _LVP_OFF& _BODEN_OFF& _PWRTE_ON& _WDT_OFF& _XT_OSC    ; selecciona el estado de los bits de configuración
         ;Definición de Constantes
         CONSTANT    NUM=.8 ; Número de display
@@ -51,7 +51,7 @@ TABLA   ADDWF   PCL, F
         RETLW   0x40        ; Código de I en 7 segmentos
         ;Subrutina Apagar Todos los Display
 APAGAR  MOVLW   0xFF        ; Cargamos el dato FF a W
-        MOVWF   PORTD       ; Pone 1´s al puerto D
+        MOVWF   PORTD       ; Pone 1?s al puerto D
         RETURN
         ;Subrutina DELAY
         ORG     0x800       ; Página 1
@@ -68,4 +68,3 @@ DELAY2  NOP
         GOTO    DELAY1
         RETURN
         END
-
