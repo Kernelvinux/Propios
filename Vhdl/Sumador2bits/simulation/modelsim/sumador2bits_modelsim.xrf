@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, /home/piero/Repositorios/Propios/Vhdl/Sumador2bits/sumador2bits.bdf
+source_file = 1, /home/piero/Repositorios/Propios/Vhdl/Sumador2bits/sumador2bits.vwf
+source_file = 1, /home/piero/Repositorios/Propios/Vhdl/Sumador2bits/db/sumador2bits.cbx.xml
+design_name = sumador2bits
+instance = comp, \A~I , A, sumador2bits, 1
+instance = comp, \B~I , B, sumador2bits, 1
+instance = comp, \Z~I , Z, sumador2bits, 1

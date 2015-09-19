@@ -1,5 +1,5 @@
 Flow report for detecsec
-Wed Sep 16 17:54:44 2015
+Thu Sep 17 10:27:55 2015
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -37,28 +37,19 @@ applicable agreement for further details.
 
 
 
-+--------------------------------------------------------------------------------------+
-; Flow Summary                                                                         ;
-+------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Sep 16 17:54:44 2015           ;
-; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
-; Revision Name                      ; detecsec                                        ;
-; Top-level Entity Name              ; detecsec                                        ;
-; Family                             ; Cyclone IV GX                                   ;
-; Total logic elements               ; 4                                               ;
-;     Total combinational functions  ; 4                                               ;
-;     Dedicated logic registers      ; 3                                               ;
-; Total registers                    ; 3                                               ;
-; Total pins                         ; 4                                               ;
-; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0                                               ;
-; Embedded Multiplier 9-bit elements ; 0                                               ;
-; Total GXB Receiver Channel PCS     ; 0                                               ;
-; Total GXB Receiver Channel PMA     ; 0                                               ;
-; Total GXB Transmitter Channel PCS  ; 0                                               ;
-; Total GXB Transmitter Channel PMA  ; 0                                               ;
-; Total PLLs                         ; 0                                               ;
-+------------------------------------+-------------------------------------------------+
++-----------------------------------------------------------------------------+
+; Flow Summary                                                                ;
++---------------------------+-------------------------------------------------+
+; Flow Status               ; Successful - Thu Sep 17 10:27:55 2015           ;
+; Quartus II 32-bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name             ; detecsec                                        ;
+; Top-level Entity Name     ; detecsec                                        ;
+; Family                    ; MAX7000S                                        ;
+; Device                    ; EPM7128SLC84-7                                  ;
+; Timing Models             ; Final                                           ;
+; Total macrocells          ; 3                                               ;
+; Total pins                ; 4                                               ;
++---------------------------+-------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -66,7 +57,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/16/2015 17:51:15 ;
+; Start date & time ; 09/17/2015 10:18:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; detecsec            ;
 +-------------------+---------------------+
@@ -77,9 +68,11 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 255160560504713.144244387506015 ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                            ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)          ; <None>        ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 255160560504713.144250311708640 ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                              ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                     ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)       ; <None>        ; --          ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                            ; --            ; --          ; eda_simulation ;
 ; PARTITION_COLOR                     ; 16764057                        ; --            ; --          ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; --          ; Top            ;
@@ -92,12 +85,12 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:04     ; 1.0                     ; 385 MB              ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 333 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 333 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 339 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 333 MB              ; 00:00:01                           ;
-; Total                ; 00:00:07     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Synthesis ; 00:00:02     ; 1.0                     ; 361 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 293 MB              ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 293 MB              ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 293 MB              ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 293 MB              ; 00:00:00                           ;
+; Total                ; 00:00:06     ; --                      ; --                  ; 00:00:02                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

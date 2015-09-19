@@ -1,7 +1,7 @@
 
 State Machine - |detecsec|pr
-Name pr.s3 pr.s2 pr.s1 pr.s0 
-pr.s0 0 0 0 0 
-pr.s1 0 0 1 1 
-pr.s2 0 1 0 1 
-pr.s3 1 0 0 1 
+Name pr.state_bit_1 pr.state_bit_0 
+pr.s0 0 0 
+pr.s1 0 1 
+pr.s2 1 1 
+pr.s3 1 0 

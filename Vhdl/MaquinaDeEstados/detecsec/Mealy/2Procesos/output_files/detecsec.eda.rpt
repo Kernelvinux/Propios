@@ -1,5 +1,5 @@
 EDA Netlist Writer report for detecsec
-Wed Sep 16 17:54:44 2015
+Thu Sep 17 10:27:55 2015
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,10 +36,10 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Sep 16 17:54:44 2015 ;
+; EDA Netlist Writer Status ; Successful - Thu Sep 17 10:27:55 2015 ;
 ; Revision Name             ; detecsec                              ;
 ; Top-level Entity Name     ; detecsec                              ;
-; Family                    ; Cyclone IV GX                         ;
+; Family                    ; MAX7000S                              ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
 
@@ -80,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Sep 16 17:54:43 2015
+    Info: Processing started: Thu Sep 17 10:27:54 2015
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog detecsec -c detecsec
-Info (119004): Automatically selected device EP4CGX15BF14C6 for design detecsec
+Info (119006): Selected device EPM7128SLC84-7 for design "detecsec"
 Info (204019): Generated file detecsec.vo in folder "/home/piero/Repositorios/Propios/Vhdl/MaquinaDeEstados/detecsec/Mealy/2Procesos/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 338 megabytes
-    Info: Processing ended: Wed Sep 16 17:54:44 2015
+    Info: Peak virtual memory: 293 megabytes
+    Info: Processing ended: Thu Sep 17 10:27:55 2015
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

@@ -40,15 +40,15 @@ VOLVER  MOVF    CUENTA,W    ; Cargamos CUENTA a W
         GOTO    INICIO
         ;*****************Tabla1************************
 TABLA1  ADDWF   PCL, F
-        RETLW   0x76        ; Código del - en 7 segmentos
         RETLW   0x33        ; Código del - en 7 segmentos
-        RETLW   0x3D        ; Código del F en 7 segmentos
+        RETLW   0x70        ; Código del - en 7 segmentos
+        RETLW   0x81        ; Código del F en 7 segmentos
         RETLW   0x38        ; Código del I en 7 segmentos
         ;*****************Tabla2************************
 TABLA2  ADDWF   PCL, F
-        RETLW   0x01        ; Código del E en 7 segmentos
         RETLW   0x22        ; Código del E en 7 segmentos
-        RETLW   0x02        ; Código del - en 7 segmentos
+        RETLW   0x10        ; Código del E en 7 segmentos
+        RETLW   0x08        ; Código del - en 7 segmentos
         RETLW   0x00        ; Código del - en 7 segmentos
         ;*****************Tabla3************************
 TABLA3  ADDWF   PCL, F

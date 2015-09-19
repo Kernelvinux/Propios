@@ -1,18 +1,7 @@
-Analysis & Synthesis Status : Successful - Wed Sep 16 17:51:19 2015
+Analysis & Synthesis Status : Successful - Thu Sep 17 10:18:38 2015
 Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : detecsec
 Top-level Entity Name : detecsec
-Family : Cyclone IV GX
-Total logic elements : 4
-    Total combinational functions : 4
-    Dedicated logic registers : 3
-Total registers : 3
+Family : MAX7000S
+Total macrocells : 3
 Total pins : 4
-Total virtual pins : 0
-Total memory bits : 0
-Embedded Multiplier 9-bit elements : 0
-Total GXB Receiver Channel PCS : 0
-Total GXB Receiver Channel PMA : 0
-Total GXB Transmitter Channel PCS : 0
-Total GXB Transmitter Channel PMA : 0
-Total PLLs : 0
