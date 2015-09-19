@@ -50,7 +50,7 @@ VOLVER  MOVF    CUENTA1,W    ; Cargamos CUENTA a W
         SUBWF   CUENTA2,W   ; W = Cuenta - W
         BTFSS   STATUS,Z    ; Salta si Z=1
         GOTO    VOLVER      ; Volver al inicio del programa
-	CALL	DELAYB
+	;CALL	DELAYB
 	INCF	CUENTA3,F
 	MOVLW	NUM2
 	SUBWF	CUENTA3,W
@@ -121,7 +121,7 @@ APAGAR  MOVLW   0xFF        ; Cargamos el dato FF a W
 	
         ;Subrutina DELAY
         ORG     0x800       ; Página 1
-DELAY   MOVLW   0x10        ; Configuramos el tiempo del retardo
+DELAY   MOVLW   0x50        ; Configuramos el tiempo del retardo
         MOVWF   TIEMPO1
 DELAY1  MOVWF   TIEMPO2
 DELAY2  NOP
