@@ -5,7 +5,7 @@
         
 	;Definición de Constantes
         CONSTANT    NUM=.8 ; Número de display
-	CONSTANT    NUM2=.16
+	CONSTANT    NUM2=.160
         
 	;Definición de variables
 TIEMPO1 EQU     0x20        ; Variable para temporizar el DELAY
@@ -50,7 +50,6 @@ VOLVER  MOVF    CUENTA1,W    ; Cargamos CUENTA a W
         SUBWF   CUENTA2,W   ; W = Cuenta - W
         BTFSS   STATUS,Z    ; Salta si Z=1
         GOTO    VOLVER      ; Volver al inicio del programa
-	;CALL	DELAYB
 	INCF	CUENTA3,F
 	MOVLW	NUM2
 	SUBWF	CUENTA3,W
@@ -97,21 +96,174 @@ TABLA2  ADDWF   PCL, F
 	
 TABLA3  ADDWF   PCL, F
         RETLW   B'00000000' 
-        RETLW   B'00000001' 
+	RETLW   B'00000000'
+        RETLW   B'00000000' 
+	RETLW   B'00000000'
+	RETLW   B'00000000'
+        RETLW   B'00000000' 
+	RETLW   B'00000000'
+        RETLW   B'00000000' 
+	RETLW   B'00000000'
+	RETLW   B'00000000'
+        RETLW   B'00000001'
+        RETLW   B'00000001'
+	RETLW   B'00000001'
+        RETLW   B'00000001'
+	RETLW   B'00000001'
+        RETLW   B'00000001'
+        RETLW   B'00000001'
+	RETLW   B'00000001'
+        RETLW   B'00000001'
+	RETLW   B'00000001'
+        RETLW   B'00000010'
+        RETLW   B'00000010'
+        RETLW   B'00000010'
+        RETLW   B'00000010'
+        RETLW   B'00000010'
+        RETLW   B'00000010'
+        RETLW   B'00000010'
+        RETLW   B'00000010'
+        RETLW   B'00000010'
         RETLW   B'00000010' 
         RETLW   B'00000011' 
+        RETLW   B'00000011' 
+        RETLW   B'00000011' 
+        RETLW   B'00000011' 
+        RETLW   B'00000011' 
+        RETLW   B'00000011' 
+        RETLW   B'00000011' 
+        RETLW   B'00000011' 
+        RETLW   B'00000011' 
+        RETLW   B'00000011' 
+        RETLW   B'00000100' 
+        RETLW   B'00000100' 
+        RETLW   B'00000100' 
+        RETLW   B'00000100' 
+        RETLW   B'00000100' 
+        RETLW   B'00000100' 
+        RETLW   B'00000100' 
+        RETLW   B'00000100' 
+        RETLW   B'00000100' 
         RETLW   B'00000100' 
         RETLW   B'00000101' 
+        RETLW   B'00000101' 
+        RETLW   B'00000101' 
+        RETLW   B'00000101' 
+        RETLW   B'00000101' 
+        RETLW   B'00000101' 
+        RETLW   B'00000101' 
+        RETLW   B'00000101' 
+        RETLW   B'00000101' 
+        RETLW   B'00000101' 
+        RETLW   B'00000110' 
+        RETLW   B'00000110' 
+        RETLW   B'00000110' 
+        RETLW   B'00000110' 
+        RETLW   B'00000110' 
+        RETLW   B'00000110' 
+        RETLW   B'00000110' 
+        RETLW   B'00000110' 
+        RETLW   B'00000110' 
         RETLW   B'00000110' 
         RETLW   B'00000111' 
+        RETLW   B'00000111' 
+        RETLW   B'00000111' 
+        RETLW   B'00000111' 
+        RETLW   B'00000111' 
+        RETLW   B'00000111' 
+        RETLW   B'00000111' 
+        RETLW   B'00000111' 
+        RETLW   B'00000111' 
+        RETLW   B'00000111' 
+        RETLW   B'00001000' 
+        RETLW   B'00001000' 
+        RETLW   B'00001000' 
+        RETLW   B'00001000' 
+        RETLW   B'00001000' 
+        RETLW   B'00001000' 
+        RETLW   B'00001000' 
+        RETLW   B'00001000' 
+        RETLW   B'00001000' 
         RETLW   B'00001000' 
         RETLW   B'00001001' 
+        RETLW   B'00001001' 
+        RETLW   B'00001001' 
+        RETLW   B'00001001' 
+        RETLW   B'00001001' 
+        RETLW   B'00001001' 
+        RETLW   B'00001001' 
+        RETLW   B'00001001' 
+        RETLW   B'00001001' 
+        RETLW   B'00001001' 
+        RETLW   B'00001010' 
+        RETLW   B'00001010' 
+        RETLW   B'00001010' 
+        RETLW   B'00001010' 
+        RETLW   B'00001010' 
+        RETLW   B'00001010' 
+        RETLW   B'00001010' 
+        RETLW   B'00001010' 
+        RETLW   B'00001010' 
         RETLW   B'00001010' 
         RETLW   B'00001011' 
+        RETLW   B'00001011' 
+        RETLW   B'00001011' 
+        RETLW   B'00001011' 
+        RETLW   B'00001011' 
+        RETLW   B'00001011' 
+        RETLW   B'00001011' 
+        RETLW   B'00001011' 
+        RETLW   B'00001011' 
+        RETLW   B'00001011' 
+	RETLW   B'00001100' 
+	RETLW   B'00001100' 
+	RETLW   B'00001100' 
+	RETLW   B'00001100' 
+	RETLW   B'00001100' 
+	RETLW   B'00001100' 
+	RETLW   B'00001100' 
+	RETLW   B'00001100' 
+	RETLW   B'00001100' 
 	RETLW   B'00001100' 
         RETLW   B'00001101' 
+        RETLW   B'00001101' 
+        RETLW   B'00001101' 
+        RETLW   B'00001101' 
+        RETLW   B'00001101' 
+        RETLW   B'00001101' 
+        RETLW   B'00001101' 
+        RETLW   B'00001101' 
+        RETLW   B'00001101' 
+        RETLW   B'00001101' 
+        RETLW   B'00001110' 
+        RETLW   B'00001110' 
+        RETLW   B'00001110' 
+        RETLW   B'00001110' 
+        RETLW   B'00001110' 
+        RETLW   B'00001110' 
+        RETLW   B'00001110' 
+        RETLW   B'00001110' 
+        RETLW   B'00001110' 
         RETLW   B'00001110' 
         RETLW   B'00001111' 
+        RETLW   B'00001111' 
+        RETLW   B'00001111' 
+        RETLW   B'00001111' 
+        RETLW   B'00001111' 
+        RETLW   B'00001111' 
+        RETLW   B'00001111' 
+        RETLW   B'00001111' 
+        RETLW   B'00001111' 
+        RETLW   B'00001111' 
+        RETLW   B'00010000' 
+        RETLW   B'00010000' 
+        RETLW   B'00010000' 
+        RETLW   B'00010000' 
+        RETLW   B'00010000' 
+        RETLW   B'00010000' 
+        RETLW   B'00010000' 
+        RETLW   B'00010000' 
+        RETLW   B'00010000' 
         RETLW   B'00010000' 
 	
         ;Subrutina Apagar Todos los Display
@@ -121,7 +273,7 @@ APAGAR  MOVLW   0xFF        ; Cargamos el dato FF a W
 	
         ;Subrutina DELAY
         ORG     0x800       ; Página 1
-DELAY   MOVLW   0x50        ; Configuramos el tiempo del retardo
+DELAY   MOVLW   0x18        ; Configuramos el tiempo del retardo
         MOVWF   TIEMPO1
 DELAY1  MOVWF   TIEMPO2
 DELAY2  NOP
@@ -134,18 +286,4 @@ DELAY2  NOP
         GOTO    DELAY1
         RETURN
 	
-        ;Subrutina DELAYB
-	ORG	0x700
-DELAYB  MOVLW   0x90        ; Configuramos el tiempo del retardo
-        MOVWF   TIEMPO1
-DELAY1B MOVWF   TIEMPO2
-DELAY2B NOP
-        NOP
-        NOP
-        NOP
-        DECFSZ  TIEMPO2,F
-        GOTO    DELAY2B
-        DECFSZ  TIEMPO1,F
-        GOTO    DELAY1B
-        RETURN
-        END
+	END
