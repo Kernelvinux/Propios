@@ -4,7 +4,8 @@
         __CONFIG _CP_OFF& _DEBUG_OFF& _WRT_OFF& _CPD_OFF& _LVP_OFF& _BODEN_OFF& _PWRTE_ON& _WDT_OFF& _XT_OSC
         ;Configuracion de variables
 COL     EQU     0x20        ; Variable que indica que tecla se esta analizando
-        ;Configurando puertos
+        
+	;Configurando puertos
         ORG     0x00        ; Se define el origen del programa
         BSF     STATUS,RP0  ; Activamos banco 1
         CLRF    TRISB       ; Configuramos puerto B como salida para Display
@@ -12,7 +13,8 @@ COL     EQU     0x20        ; Variable que indica que tecla se esta analizando
         CLRF    TRISD
         COMF    TRISD       ; Puerto D como entrada para las columnas teclado
         BCF     STATUS,RP0  ; Regresamos la banco 0
-        ;Programa principal
+        
+	;Programa principal
         CLRF    PORTB       ; Apagamos el display
         CLRF    PORTC       ;
         COMF    PORTC       ; Ponemos a "1" el puerto C
