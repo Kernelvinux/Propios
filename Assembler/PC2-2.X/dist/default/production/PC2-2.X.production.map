@@ -1,0 +1,46 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Tue Oct 13 17:38:20 2015
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x00006c
+.config_2007_BUILD/DEFAULT/PRODUCTION/PC2-2.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000039      
+                            0x002007    0x002007      
+            58 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000005    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                      INT   0x000023    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                     PRIN   0x000021    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                    TABLA   0x000029    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                  VOLVER2   0x000016    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                  VOLVER3   0x000013    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000005    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                  VOLVER3   0x000013    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                  VOLVER2   0x000016    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                     PRIN   0x000021    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                      INT   0x000023    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+                    TABLA   0x000029    program     static /home/piero/Repositorios/Propios/Assembler/PC2-2.X/PC2-2.asm
+
+

@@ -10,6 +10,7 @@ TEMP	EQU	0x24
         ORG     0x00        ; Se define el origen del programa
         
 	;Configuración de puertos
+	ORG     0x00        ; Se define el origen del programa
         BSF     STATUS,RP0  ; Selección banco 1
         CLRF	TRISB       
 	COMF	TRISB	    ; Puerto B como entrada
