@@ -33,8 +33,8 @@ INT     SWAPF   PORTB,W
         ANDLW   B'00001111'
         CALL    TABLA
         MOVWF   PORTD
-		BCF		INTCON,1
-		RETFIE
+	BCF		INTCON,1
+	RETFIE
         ;Subrutina de Delay
 DELAY   MOVLW   0xFF        ; Configuramos el tiempo del retardo
         MOVWF   TIEMPO1
